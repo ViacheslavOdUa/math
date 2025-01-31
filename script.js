@@ -24,7 +24,7 @@ prevPageButton.addEventListener("click", () => {
 
 // Переход на следующую страницу
 nextPageButton.addEventListener("click", () => {
-    if (currentPage < 204) {
+    if (currentPage < 408) {
         currentPage += 2;
         pageNumberInput.value = currentPage;
         updatePage();
